@@ -19,85 +19,47 @@
             $(document).ready(function() {
                 $('.aboutme').addClass('makeNone');
                 $('.portfolio').addClass('makeNone');
-                $('#scriptLinkHome').css('color','black');
-                $('#scriptLinkHome').css('font-weight','bold');
-                $('#scriptLinkHome1000').css('color','black');
-                $('#scriptLinkHome1000').css('font-weight','bold');
+                $('.scriptLinkHome').css('color','black');
+                $('.scriptLinkHome').css('font-weight','bold');
 
-                $('#scriptLinkHome').click(function () {
+                $('.scriptLinkHome').click(function () {
                     $('.home').removeClass('makeNone');
                     $('.aboutme').addClass('makeNone');
                     $('.portfolio').addClass('makeNone');
-                    $('#scriptLinkHome').css('color','black');
-                    $('#scriptLinkHome').css('font-weight','bold');
-                    $('#scriptLinkAboutMe').css('color','grey');
-                    $('#scriptLinkAboutMe').css('font-weight','normal');
-                    $('#scriptLinkPortfolio').css('color','grey');
-                    $('#scriptLinkPortfolio').css('font-weight','normal');
+                    $('.scriptLinkHome').css('color','black');
+                    $('.scriptLinkHome').css('font-weight','bold');
+                    $('.scriptLinkAboutMe').css('color','grey');
+                    $('.scriptLinkAboutMe').css('font-weight','normal');
+                    $('.scriptLinkPortfolio').css('color','grey');
+                    $('.scriptLinkPortfolio').css('font-weight','normal');
                     if(currentWidth < 1000) {
                         $('#panel').slideUp(500);
                      }
                 });
-                $('#scriptLinkHome1000').click(function () {
-                    $('.home').removeClass('makeNone');
-                    $('.aboutme').addClass('makeNone');
-                    $('.portfolio').addClass('makeNone');
-                    $('#scriptLinkHome1000').css('color','black');
-                    $('#scriptLinkHome1000').css('font-weight','bold');
-                    $('#scriptLinkAboutMe1000').css('color','grey');
-                    $('#scriptLinkAboutMe1000').css('font-weight','normal');
-                    $('#scriptLinkPortfolio1000').css('color','grey');
-                    $('#scriptLinkPortfolio1000').css('font-weight','normal');
-                });
-                $('#scriptLinkAboutMe').click(function () {
+                $('.scriptLinkAboutMe').click(function () {
                     $('.home').addClass('makeNone');
                     $('.aboutme').removeClass('makeNone');
                     $('.portfolio').addClass('makeNone');
-                    $('#scriptLinkAboutMe').css('color','black');
-                    $('#scriptLinkAboutMe').css('font-weight','bold');
-                    $('#scriptLinkPortfolio').css('color','grey');
-                    $('#scriptLinkPortfolio').css('font-weight','normal');
-                    $('#scriptLinkHome').css('color','grey');
-                    $('#scriptLinkHome').css('font-weight','normal');
+                    $('.scriptLinkAboutMe').css('color','black');
+                    $('.scriptLinkAboutMe').css('font-weight','bold');
+                    $('.scriptLinkPortfolio').css('color','grey');
+                    $('.scriptLinkPortfolio').css('font-weight','normal');
+                    $('.scriptLinkHome').css('color','grey');
+                    $('.scriptLinkHome').css('font-weight','normal');
                     if(currentWidth < 1000) {
                         $('#panel').slideUp(500);
                     }
                 });
-                $('#scriptLinkAboutMe1000').click(function () {
-                    $('.home').addClass('makeNone');
-                    $('.aboutme').removeClass('makeNone');
-                    $('.portfolio').addClass('makeNone');
-                    $('#scriptLinkAboutMe1000').css('color','black');
-                    $('#scriptLinkAboutMe1000').css('font-weight','bold');
-                    $('#scriptLinkPortfolio1000').css('color','grey');
-                    $('#scriptLinkPortfolio1000').css('font-weight','normal');
-                    $('#scriptLinkHome1000').css('color','grey');
-                    $('#scriptLinkHome1000').css('font-weight','normal');
-                });
-                $('#scriptLinkPortfolio').click(function() {
+                $('.scriptLinkPortfolio').click(function() {
                     $('.home').addClass('makeNone');
                     $('.aboutme').addClass('makeNone');
                     $('.portfolio').removeClass('makeNone');
-                    $('#scriptLinkPortfolio').css('color','black');
-                    $('#scriptLinkPortfolio').css('font-weight','bold');
-                    $('#scriptLinkAboutMe').css('color','grey');
-                    $('#scriptLinkAboutMe').css('font-weight','normal');
-                    $('#scriptLinkHome').css('color','grey');
-                    $('#scriptLinkHome').css('font-weight','normal');
-                    if(currentWidth < 1000) {
-                        $('#panel').slideUp(500);
-                    }
-                });
-                $('#scriptLinkPortfolio1000').click(function() {
-                    $('.home').addClass('makeNone');
-                    $('.aboutme').addClass('makeNone');
-                    $('.portfolio').removeClass('makeNone');
-                    $('#scriptLinkPortfolio1000').css('color','black');
-                    $('#scriptLinkPortfolio1000').css('font-weight','bold');
-                    $('#scriptLinkAboutMe1000').css('color','grey');
-                    $('#scriptLinkAboutMe1000').css('font-weight','normal');
-                    $('#scriptLinkHome1000').css('color','grey');
-                    $('#scriptLinkHome1000').css('font-weight','normal');
+                    $('.scriptLinkPortfolio').css('color','black');
+                    $('.scriptLinkPortfolio').css('font-weight','bold');
+                    $('.scriptLinkAboutMe').css('color','grey');
+                    $('.scriptLinkAboutMe').css('font-weight','normal');
+                    $('.scriptLinkHome').css('color','grey');
+                    $('.scriptLinkHome').css('font-weight','normal');
                     if(currentWidth < 1000) {
                         $('#panel').slideUp(500);
                     }
@@ -121,9 +83,9 @@
                 #right { float: left; width: 60%; margin-left: 5%; margin-right: 5%; display: inline;}
                 .aboutme { overflow: hidden;  margin: 0 auto; width: 1000px;}
                 .portfolio { overflow: hidden;  margin: 0 auto; width: 1000px;}
-                #scriptLinkHome1000 {  font-size: 14px; color: grey; text-decoration: none;  }
-                #scriptLinkAboutMe1000 {  font-size: 14px; color: grey; text-decoration: none;  }
-                #scriptLinkPortfolio1000 {  font-size: 14px; color: grey; text-decoration: none;  }
+                .scriptLinkHome {  font-size: 14px; color: grey; text-decoration: none;  }
+                .scriptLinkAboutMe {  font-size: 14px; color: grey; text-decoration: none;  }
+                .scriptLinkPortfolio {  font-size: 14px; color: grey; text-decoration: none;  }
                 #homeTitle {  font-size: 22px; font-weight: bold; color: black; text-decoration: none; display: inline;}
                 .menuButton { display: none;}
                 #panel1000 {display: inline; float: right;}
@@ -139,18 +101,18 @@
                 #homeTitle {  font-size: 22px; font-weight: bold; color: black; text-decoration: none; display: inline;}
                 #panel {display: none; position: absolute; background-color: white;  left: 0px; width: 100%}
                 #panel1000 { display: none;}
-                #scriptLinkHome {  font-size: 14px; color: grey; text-decoration: none; display: block;}
-                #scriptLinkAboutMe {  font-size: 14px; color: grey; text-decoration: none; display: block; }
-                #scriptLinkPortfolio {  font-size: 14px; color: grey; text-decoration: none; display: block; }
+                .scriptLinkHome {  font-size: 14px; color: grey; text-decoration: none; display: block;}
+                .scriptLinkAboutMe {  font-size: 14px; color: grey; text-decoration: none; display: block; }
+                .scriptLinkPortfolio {  font-size: 14px; color: grey; text-decoration: none; display: block; }
             }
             @media (max-width: 767px) {
                 #header { height: 50px; padding: 10px;  margin: 0 auto; line-height: 30px;}
                 #homeTitle {  font-size: 22px; font-weight: bold; color: black; text-decoration: none; display: inline;}
                 #panel {display: none; position: absolute; background-color: white; left: 0px; width: 100%}
                 #panel1000 { display: none;}
-                #scriptLinkHome {  font-size: 14px; color: grey; text-decoration: none; display: block; }
-                #scriptLinkAboutMe {  font-size: 14px; color: grey; text-decoration: none; display: block; }
-                #scriptLinkPortfolio {  font-size: 14px; color: grey; text-decoration: none; display: block; }
+                .scriptLinkHome {  font-size: 14px; color: grey; text-decoration: none; display: block; }
+                .scriptLinkAboutMe {  font-size: 14px; color: grey; text-decoration: none; display: block; }
+                .scriptLinkPortfolio {  font-size: 14px; color: grey; text-decoration: none; display: block; }
             }
             #makeSpace {
                 display: inline;
@@ -187,16 +149,16 @@
             <a id="homeTitle" href="#" onclick="window.location.reload()">MOONSUNG SON</a>
             <button class="menuButton">=</button>
             <div id="panel">
-                <a id="scriptLinkHome" href="#"> HOME</a>
-                <a id="scriptLinkAboutMe" href="#"> ABOUT ME </a>
-                <a id="scriptLinkPortfolio" href="#"> PORTFOLIO </a>
+                <a class="scriptLinkHome" href="#"> HOME</a>
+                <a class="scriptLinkAboutMe" href="#"> ABOUT ME </a>
+                <a class="scriptLinkPortfolio" href="#"> PORTFOLIO </a>
             </div>
             <div id="panel1000">
-                <a id="scriptLinkHome1000" href="#"> HOME</a>
+                <a class="scriptLinkHome" href="#"> HOME</a>
                 <div id="makeSpace">&nbsp;</div>
-                <a id="scriptLinkAboutMe1000" href="#"> ABOUT ME </a>
+                <a class="scriptLinkAboutMe" href="#"> ABOUT ME </a>
                 <div id="makeSpace">&nbsp;</div>
-                <a id="scriptLinkPortfolio1000" href="#"> PORTFOLIO </a>
+                <a class="scriptLinkPortfolio" href="#"> PORTFOLIO </a>
             </div>
         </div>
     </header>
@@ -213,6 +175,7 @@
                 </p>
                 <br>
                 <br>
+                <p>215did@naver.com</p>
             </div>
         </div>
         <div class="aboutme">
@@ -238,4 +201,4 @@
             <p>Copyright @ 2022. MoonSung Son (215did@naver.com) All rights reserved</p>
         </div>
     </footer>
-</html> 
+</html>
